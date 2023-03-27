@@ -10,4 +10,3 @@ With this tool, players can enter prices from resources they have gathered or bo
 ## Features
 * Interface that is simple and easy to use: The calculator has a straightforward interface without all the extra clutter which makes it easy to navigate and use, even for the newest players exploring the world of Albion.
 * Inputted information saved: The calculator utilizes local storage to store inputted values, allowing users to pick up where they left off in previous sessions.
-

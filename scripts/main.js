@@ -1668,6 +1668,8 @@ function init() {
             refining_resource_list = resources.wood;
             refining_product_list = products.plank;
             break;
+        default:
+            break;
     }
 
     // For every element in resources.hide, find the matching    element in products.leather and add to the table
