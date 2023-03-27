@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RefiningLocation from "./RefiningLocation";
+import RefiningLocation from "./RefiningInputs";
 import RefiningStation from "./RefiningStation";
 
 const RefiningSettings = () => {
@@ -14,7 +14,7 @@ const RefiningSettings = () => {
     setRefineAmount(Number(e.target.value));
   };
 
-  const updateLocation = (e: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleLocationChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     console.log(e.target.value);
   };
 
@@ -26,8 +26,8 @@ const RefiningSettings = () => {
           refineAmount={refineAmount}
           handleRefineChange={handleRefineAmountChange}
           handleTaxChange={handleTaxChange}
+          handleLocationChange={handleLocationChange}
         />
-        <RefiningLocation updateLocation={updateLocation} />
       </div>
     </div>
   );
